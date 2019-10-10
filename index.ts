@@ -1,4 +1,4 @@
-import Worker from "worker-loader!./my.worker.ts";
+import Worker from "worker-loader!./my.worker";
 
 console.log("Spawning new worker", Worker);
 const worker = new Worker();
